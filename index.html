@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Task 19-10-22</title>
+</head>
+<body>
+
+    <nav class="bg-warning w-100 ">
+        <div class="container  m-auto p-3 row d-flex justify-content-between w-100">
+
+        <div class="col-6 row ">
+            <label for="boxHeight">Box Height</label>
+            <input id="boxHeight" value="400" type="number" placeholder="Box Height" class="form-control col">
+            <label for="boxWidth">Box Width</label>
+            <input id="boxWidth" value="800" type="number" placeholder="Box Width" class="form-control col">
+            <label for="ballSize">Ball Diameter</label>
+            <input id="ballSize" value="60" type="number" placeholder="Ball Diameter" class="form-control col">
+        </div>
+        <div class="col  d-flex flex-column  ps-5">
+            <div>
+                <label for="boxColor">Box Color</label><br>
+                <input value="#8651C1" id="boxColor" type="color"><br>
+            </div>
+            <div class="mt-2">
+                <label for="ballColor">Ball Color</label><br>
+                <input value="#f2f2f2" id="ballColor" type="color">
+            </div>
+            <div class="mt-2">
+                <label for="step">Steps per click</label><br>
+                <input type="number" value="10" id="step" class="form-control">
+            </div>
+        </div>
+        <div class="col-3 d-flex  justify-content-end align-items-center">
+            <button id="btn-save" class="btn btn-outline-success me-4">Save</button>
+            <button id="btn-reset" class="btn btn-outline-dark">Reset</button>
+        </div>
+
+    </div>
+
+    </nav>
+    <div id="box" class="box  m-auto mt-5 position-relative">
+        <div id="ball" class="ball position-absolute">
+
+        </div>
+    </div>
+
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

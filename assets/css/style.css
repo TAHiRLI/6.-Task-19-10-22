@@ -1,0 +1,19 @@
+    .box{
+        height: 600px;
+        width: 900px;
+        border: 5px solid black;
+        padding: 0;
+    }
+    .ball{
+        transition: 0.15s cubic-bezier(.53,-0.16,.54,1.18);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: orange;
+        
+    }
+    .btn{
+        height: 50px !important;
+        width: 90px;
+
+    }
